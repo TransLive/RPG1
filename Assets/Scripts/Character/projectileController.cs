@@ -19,4 +19,9 @@ public class projectileController : MonoBehaviour {
             myRB.AddForce(new Vector2(1, 0) * rocketSpeed, ForceMode2D.Impulse);
         }
     }
+
+    public void removeForce()
+    {
+        myRB.velocity = new Vector2(0, 0);
+    }
 }

@@ -20,7 +20,7 @@ namespace RPG1.Assets.Scripts.Player
         }
         private void playerJump()
         {
-            if (isOnGround && Input.GetAxis("Jump") > 0 && myRB.velocity.y <= 0)
+            if (isOnGround && Input.GetAxis("Jump") > 0 && myRB.velocity.y == 0)
             {
                 isOnGround = false;
                 myAnim.SetBool("isGrounded", isOnGround);

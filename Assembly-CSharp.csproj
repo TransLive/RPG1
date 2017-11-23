@@ -51,12 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Character\destroy.cs" />
+     <Compile Include="Assets\Scripts\Character\bulletDestroy.cs" />
+     <Compile Include="Assets\Scripts\Character\enemyDamage.cs" />
+     <Compile Include="Assets\Scripts\Character\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\Character\projectileController.cs" />
+     <Compile Include="Assets\Scripts\Character\rocketsHit.cs" />
+     <Compile Include="Assets\Scripts\effect\explosionDestroy.cs" />
      <Compile Include="Assets\Scripts\Player\jump_playeController.cs" />
      <Compile Include="Assets\Scripts\Player\move_playerController.cs" />
      <Compile Include="Assets\Scripts\Player\playerController.cs" />
+     <Compile Include="Assets\Scripts\Player\playerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\shoot_playerController.cs" />
+     <Compile Include="Assets\Scripts\Scene\cameraFollower.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
